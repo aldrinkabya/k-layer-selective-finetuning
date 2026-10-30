@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.env
+
+data/
+results/
+results_e2e/
+datasets.tar
+e2e-dataset.zip
+
+*.pt
+*.pth
+*.bin
+*.safetensors
