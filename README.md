@@ -1,6 +1,6 @@
 # Training-Free Layer Selection for Partial Fine-Tuning of Language Models
 
-This repository contains the official implementation for "Training-Free Layer Selection for Partial Fine-Tuning of Language Models". It provides methods to select optimal layers for fine-tuning BERT (Classification) and GPT-2 (Generation) using cosine similarity of representative tokens, without requiring gradient-based training for selection.
+This repository contains the official implementation for "[Training-Free Layer Selection for Partial Fine-Tuning of Language Models](https://doi.org/10.1016/j.ins.2026.123204)" (*Information Sciences*, 2026). It provides methods to select optimal layers for fine-tuning BERT (Classification) and GPT-2 (Generation) using cosine similarity of representative tokens, without requiring gradient-based training for selection.
 
 ## Installation
 
@@ -121,7 +121,11 @@ If you use this code for your research, please cite our paper:
 @article{biswas2026training,
   title={Training-Free Layer Selection for Partial Fine-Tuning of Language Models},
   author={Biswas, Aldrin Kabya and Fahim, Md and Fuad, Md Tahmid Hasan and Mazumder, Akm Moshiur Rahman and Ali, Amin Ahsan and Rahman, AKM Mahbubur},
-  journal={arXiv preprint},
-  year={2026}
+  journal={Information Sciences},
+  volume={740},
+  pages={123204},
+  year={2026},
+  publisher={Elsevier},
+  doi={10.1016/j.ins.2026.123204}
 }
 ```
